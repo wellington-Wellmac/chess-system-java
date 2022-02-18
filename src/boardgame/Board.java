@@ -1,5 +1,7 @@
 package boardgame;
 
+import chess.ChessPiece;
+
 public class Board {
 	
 	private int rows;
@@ -26,6 +28,11 @@ public class Board {
 
 	public void setColumns(int columns) {
 		this.columns = columns;
+	}
+
+	public ChessPiece piece(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
 	}
     
 	
